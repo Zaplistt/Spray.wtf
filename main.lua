@@ -1419,7 +1419,7 @@ getgenv().loaded = true
         end  
 
         function library:toggle(options) 
-            local rand = math.random(1, 2) 
+            local rand = 1
             local cfg = {
                 enabled = options.enabled or nil,
                 name = options.name or "Toggle",
