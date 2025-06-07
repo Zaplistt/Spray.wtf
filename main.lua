@@ -506,6 +506,7 @@ getgenv().loaded = true
                 game_name = properties.gameInfo or properties.game_info or properties.GameInfo or "Milenium for Counter-Strike: Global Offensive";
                 size = properties.size or properties.Size or dim2(0, 700, 0, 565);
                 selected_tab;
+		timeleft = 0;
                 items = {};
 
                 tween;
